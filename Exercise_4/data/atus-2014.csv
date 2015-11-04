@@ -1,0 +1,50 @@
+activity 1,activity 2,Total,Men,Women
+Personal care activities                                                   ,    Sleeping                                                                      ,8.8,8.69,8.9
+Personal care activities                                                   ,    Grooming                                                                      ,0.68,0.55,0.81
+Personal care activities                                                   ,    Health-related self care                                             ,0.08,0.06,0.1
+Personal care activities                                                   ,    Personal activities                                                           ,0.01,0.01,0
+Personal care activities                                                   ,    Travel related to personal care                                          ,0.02,0.02,0.02
+Eating and drinking                                                          ,    Eating and drinking                                                     ,1.07,1.1,1.04
+Eating and drinking                                                          ,    Travel related to eating and drinking                                   ,0.1,0.11,0.09
+Household activities,    Housework,0.55,0.27,0.82
+Household activities,    Food preparation and cleanup,0.59,0.34,0.82
+Household activities,    Lawn and garden care,0.19,0.25,0.12
+Household activities,    Household management,0.12,0.1,0.13
+Household activities,"    Interior maintenance, repair, and decoration               ",0.07,0.08,0.05
+Household activities,"    Exterior maintenance, repair, and decoration                   ",0.05,0.09,0.02
+Household activities,    Animals and pets,0.11,0.09,0.12
+Household activities,    Vehicles,0.05,0.09,0.01
+Household activities,"    Appliances, tools, and toys",0.02,0.02,0.01
+Household activities,    Travel related to household activities,0.04,0.04,0.04
+Purchasing goods and services,    Consumer goods purchases,0.36,0.27,0.44
+Purchasing goods and services,    Professional and personal care services,0.09,0.06,0.12
+Purchasing goods and services,    Household services,0.01,0.02,0.01
+Purchasing goods and services,    Government services,0,0,0
+Purchasing goods and services,    Travel related to purchasing goods and services,0.27,0.24,0.29
+Caring for and helping household members,    Caring for and helping household children,0.41,0.26,0.55
+Caring for and helping household members,    Caring for and helping household adults,0.04,0.03,0.06
+Caring for and helping household members,"    Travel related to caring for and helping household
+      members         ",0.08,0.06,0.11
+Caring for and helping nonhousehold members,    Caring for and helping nonhousehold children,0.07,0.04,0.1
+Caring for and helping nonhousehold members,    Caring for and helping nonhousehold adults,0.06,0.07,0.06
+Caring for and helping nonhousehold members,"    Travel related to caring for and helping nonhousehold
+      members",0.05,0.04,0.05
+Working and work-related activities,    Working,3.25,3.87,2.68
+Working and work-related activities,    Work-related activities,0.01,0.01,0
+Working and work-related activities,    Other income-generating activities,0.02,0.03,0.02
+Working and work-related activities,    Job search and interviewing,0.04,0.05,0.03
+Working and work-related activities,    Travel related to work,0.27,0.34,0.21
+Educational activities,    Attending class,0.23,0.24,0.23
+Educational activities,    Homework and research,0.15,0.12,0.18
+Educational activities,    Travel related to education,0.03,0.03,0.03
+"Organizational, civic, and religious activities",    Religious and spiritual activities,0.14,0.11,0.17
+"Organizational, civic, and religious activities",    Volunteering (organizational and civic activities)        ,0.14,0.12,0.16
+"Organizational, civic, and religious activities","    Travel related to organizational, civic, and religious
+      activities",0.04,0.04,0.05
+Leisure and sports,"    Socializing, relaxing, and leisure",4.77,5.06,4.49
+Leisure and sports,"    Sports, exercise, and recreation",0.33,0.42,0.24
+Leisure and sports,    Travel related to leisure and sports,0.21,0.23,0.2
+"Telephone calls, mail, and e-mail                                 ",    Telephone calls (to or from)                                            ,0.1,0.06,0.13
+"Telephone calls, mail, and e-mail                                 ",    Household and personal messages,0.04,0.03,0.06
+"Telephone calls, mail, and e-mail                                 ",    Travel related to telephone calls,0,0,0
+"Other activities, not elsewhere classified","Other activities, not elsewhere classified",0.23,0.22,0.24

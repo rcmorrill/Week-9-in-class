@@ -1,0 +1,13 @@
+activity1,abbrev,classification
+Personal care activities                                                   ,Personal care,1
+Eating and drinking                                                          ,Eating,1
+Household activities,Household,2
+Purchasing goods and services,Shopping,2
+Caring for and helping household members,Caring for others,2
+Caring for and helping nonhousehold members,Caring for others,2
+Working and work-related activities,Work,3
+Educational activities,Education,3
+"Organizational, civic, and religious activities",Civic,2
+Leisure and sports,Leisure,1
+"Telephone calls, mail, and e-mail                                 ",Communication,2
+"Other activities, not elsewhere classified",Other,4
