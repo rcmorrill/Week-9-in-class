@@ -16,17 +16,40 @@ var arcGenerator = d3.svg.arc()
     .innerRadius(50)
     .outerRadius(100);
 
-plot.append('g')
+   /* plot.append('g')
     .attr('transform','translate(100,100)')
     .append('path')
     .datum({
         startAngle:0,
         endAngle:Math.PI*2
     })
-    .attr('d',arcGenerator);
+    .attr('d',arcGenerator);*/
+
+plot.append('path')
+    .attr('d', function(){
+        return arcGenerator({
+            startAngle:0,
+            endAngle:Math.PI,
+        })
+    })
+    .attr('transform','translate('+width/2+','+height/2+')')
 
 //TODO: create an arc, centered at (350,100), with outer radius 100, inner radius 0, starting at 6 o'clock and ending at 9
-arcGenerator
+
+plot.append('path')
+    .attr('d', function(){
+        return arcGenerator({
+            startAngle:Math.PI,
+            endAngle:Math.PI*3/2,
+        })
+    })
+    .attr('transform','translate('+width/2+','+height/2+')')
+
+
+
+
+
+/*arcGenerator
     .innerRadius(0);
 plot.append('g')
     .attr('transform','translate(350,100)')
@@ -35,4 +58,4 @@ plot.append('g')
         startAngle:Math.PI,
         endAngle:Math.PI/2*3
     })
-    .attr('d',arcGenerator);
+    .attr('d',arcGenerator);*/

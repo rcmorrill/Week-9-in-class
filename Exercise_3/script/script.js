@@ -27,6 +27,14 @@ queue()
 
 //Layout function
 var partition = d3.layout.partition()
+    .size([width,height])
+    .children(function(d){
+        //given the heirarchy data, how to go down the tree
+        return d.values;
+    })
+    .value(function(d){
+        return d.total;
+    })
 
 //Generators?
 
@@ -35,7 +43,33 @@ var scaleR = d3.scale.linear().domain([0,height]).range([50,height/2-50])
 
 function dataLoaded(err,data,m){
 
+    var nestedData=d3.nest().key(function(d){return d.activity1})
+        .entries(data);
+
+    console.log(nestedData);
+
+    var heirarchy = {
+        key:"all day",
+        values: nestedData
+    }
+
+    console.log(heirarchy);
+
+    console.log(partition(heirarchy));
     //Draw as a rectangular partition diagram
+
+    plot.selectAll('.slice')
+        .data(partition(heirarchy))
+        .enter()
+        .append('rect')
+        .attr('class','slice')
+        .attr('x', function(d){return d.x})
+        .attr('y', function(d){return d.y})
+        .attr('width', function(d){return d.dx})
+        .attr('height', function(d){return d.dy})
+        .style('stroke','white')
+        .style('stroke-width','1px')
+
 
     //Draw as a circular partition diagram
 }
